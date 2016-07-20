@@ -10,7 +10,7 @@ setup(
     author='Vinit Kumar',
     author_email='vinit.kumar@changer.nl',
     url='http://github.com:vinitkumar/json2xml.git',
-    packages=find_packages(),
+    py_modules=['json2xml'],
     zip_safe=False,
     include_package_data=True,
     install_requires=['BeautifulSoup4==4.4.1',
