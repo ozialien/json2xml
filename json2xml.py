@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+import sys 
 import requests
 import simplejson
 import urllib
@@ -75,4 +76,4 @@ def main(argv=None):
          print data_object.json2xml()
 
 if __name__ == "__main__":
-    main(argv)
+    main(sys.argv)
